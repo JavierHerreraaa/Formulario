@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/item_dos"
+        android:icon="@drawable/icono_menu"
+        android:title="DOS"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/Reservas"
+                android:title="@string/app_name"
+                android:icon="@drawable/icono_reservas"/>
+
+            <item
+                android:id="@+id/Localizacion"
+                android:title="@string/Localizacion"
+                android:icon="@drawable/icono_localizacion"/>
+            <item
+                android:id="@+id/Salas"
+                android:title="@string/Salas"
+                android:icon="@drawable/icono_salas"/>
+        </menu>
+    </item>
+
+</menu>
